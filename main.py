@@ -6,10 +6,7 @@ symbols = ['!', '#', '$', '%', '&', '(', ')', '*', '+']
 
 print("Welcome to the PyPassword Generator!")
 error = 0
-# nr_letters = int(input("How many letters would you like in your password?\n")) 
-# nr_symbols = int(input(f"How many symbols would you like?\n"))
-# nr_numbers = int(input(f"How many numbers would you like?\n"))
-#exception handeling
+
 try:
   nr_letters = int(input("How many letters would you like in your password?\n")) 
   nr_symbols = int(input(f"How many symbols would you like?\n"))
